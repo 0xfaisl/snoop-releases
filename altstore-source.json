@@ -1,0 +1,52 @@
+{
+  "name": "SNOOP",
+  "identifier": "io.0xfaisl.snoop.altstore",
+  "sourceURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/altstore-source.json",
+  "subtitle": "Your WHOOP strap, your data, on your device.",
+  "description": "SNOOP is a private, independently maintained local-first companion for compatible wearable hardware based on the NOOP project. Not affiliated with WHOOP. Not a medical device; metrics are informational and not clinically validated.",
+  "iconURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/assets/icon_512x512.png",
+  "website": "https://github.com/0xfaisl/snoop-releases",
+  "tintColor": "44E2B0",
+  "apps": [
+    {
+      "name": "SNOOP",
+      "bundleIdentifier": "io.0xfaisl.snoop",
+      "developerName": "SNOOP Project",
+      "subtitle": "Read your own WHOOP strap, fully offline.",
+      "localizedDescription": "SNOOP is a private, independently maintained local-first companion for compatible wearable hardware based on the NOOP project. Not affiliated with WHOOP. Not a medical device; metrics are informational and not clinically validated.",
+      "iconURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/assets/icon_512x512.png",
+      "tintColor": "44E2B0",
+      "category": "other",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-10-07T13:10:56Z",
+          "localizedDescription": "# SNOOP 0.1.0\n\nThe first independent SNOOP release, based on the NOOP project.\n\n- Permanent Apple identity: `io.0xfaisl.snoop`, with the matching widget and shared App Group.\n- Independently maintained sideload builds and source in `0xfaisl/snoop-releases`.\n- Existing WHOOP pairing, local storage, health calculations and artwork retained.\n- Upstream improvements are selected manually; upstream NOOP releases are not SNOOP updates.\n\nThe iPhone package includes widgets and Live Activities. The Watch app is compiled but omitted\nfrom the sideload package, preserving the inherited packaging behavior.\n\nSNOOP is independently maintained and is not affiliated with or endorsed by WHOOP, Inc.\nIt is not a medical device; derived metrics are informational and not clinically validated.\nOriginal author attribution, the license and third-party notices remain in place.\n",
+          "downloadURL": "https://github.com/0xfaisl/snoop-releases/releases/download/v0.1.0/SNOOP-ios-unsigned-v0.1.0.ipa",
+          "size": 21554619,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.background-delivery",
+          "com.apple.developer.healthkit.access",
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "SNOOP connects directly to your WHOOP strap over Bluetooth to read heart rate, R-R intervals, battery, and sensor data locally on your iPhone. Nothing leaves your device.",
+          "NSLocationWhenInUseUsageDescription": "SNOOP records your route during an outdoor workout to show distance, pace, and a map, and keeps recording while the screen is off. The route stays on your device. Nothing leaves it.",
+          "NSHealthShareUsageDescription": "SNOOP reads your own Apple Health data on-device to compute recovery, strain, and sleep. Nothing leaves your device.",
+          "NSHealthUpdateUsageDescription": "SNOOP writes the metrics it computes from your strap back into Apple Health, on-device and only when you allow it.",
+          "NSMotionUsageDescription": "SNOOP reads your iPhone's step count for a walking or running workout to show steps in the activity summary. It stays on your device. Nothing leaves it.",
+          "NSSpeechRecognitionUsageDescription": "SNOOP transcribes your question on-device so you can ask the coach out loud instead of typing. Audio never leaves your iPhone.",
+          "NSMicrophoneUsageDescription": "SNOOP uses the microphone to let you ask the coach a question by voice. The audio is transcribed on-device and never leaves your iPhone."
+        }
+      }
+    }
+  ],
+  "news": []
+}
