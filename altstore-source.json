@@ -4,7 +4,7 @@
   "sourceURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/altstore-source.json",
   "subtitle": "Your WHOOP strap, your data, on your device.",
   "description": "SNOOP is a private, independently maintained local-first companion for compatible wearable hardware based on the NOOP project. Not affiliated with WHOOP. Not a medical device; metrics are informational and not clinically validated.",
-  "iconURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/assets/icon_512x512.png",
+  "iconURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/assets/icon_512x512-v0.1.1.png",
   "website": "https://github.com/0xfaisl/snoop-releases",
   "tintColor": "44E2B0",
   "apps": [
@@ -14,11 +14,20 @@
       "developerName": "SNOOP Project",
       "subtitle": "Read your own WHOOP strap, fully offline.",
       "localizedDescription": "SNOOP is a private, independently maintained local-first companion for compatible wearable hardware based on the NOOP project. Not affiliated with WHOOP. Not a medical device; metrics are informational and not clinically validated.",
-      "iconURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/assets/icon_512x512.png",
+      "iconURL": "https://raw.githubusercontent.com/0xfaisl/snoop-releases/main/assets/icon_512x512-v0.1.1.png",
       "tintColor": "44E2B0",
       "category": "other",
       "screenshotURLs": [],
       "versions": [
+        {
+          "version": "0.1.1",
+          "buildVersion": "2",
+          "date": "2026-10-08T11:51:11Z",
+          "localizedDescription": "# SNOOP 0.1.1\n\nThis release brings the approved SNOOP emblem and complete in-app branding to the independently maintained SNOOP app.\n\n- New SNOOP app icon, navy alternative and in-app logo.\n- SNOOP naming across screens, pairing help, notifications, accessibility labels, widgets and bundled translations.\n- Correct historical attribution to the upstream project in the AltStore/SideStore changelog entry.\n\nPermanent app and widget identities, shared App Group, local storage and backup formats remain compatible with SNOOP 0.1.0. The existing 0.1.0 download and artwork are preserved; the source uses a new versioned icon URL.\n\nThe iPhone package includes widgets and Live Activities. The Watch app is compiled but omitted from the sideload package, preserving the inherited packaging behavior. Bluetooth, HealthKit, personal signing and upgrade retention still require real-device acceptance. In-app update checks remain disabled; install or update through AltStore/SideStore.\n\nSNOOP is based on the NOOP project and is independently maintained. It is not affiliated with or endorsed by WHOOP, Inc. It is not a medical device; derived metrics are informational and not clinically validated. Original author attribution, the license and third-party notices remain in place.\n",
+          "downloadURL": "https://github.com/0xfaisl/snoop-releases/releases/download/v0.1.1/SNOOP-ios-unsigned-v0.1.1.ipa",
+          "size": 21348070,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "0.1.0",
           "buildVersion": "1",
