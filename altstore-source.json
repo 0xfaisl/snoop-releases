@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "0.1.2",
+          "buildVersion": "3",
+          "date": "2026-10-08T14:22:43Z",
+          "localizedDescription": "# SNOOP 0.1.2\n\nThis release restores the colorful Today background on iPhone and fixes appearance preset controls.\n\n- Restored the blue, purple and warm day-cycle sky in the dark Liquid Today view, with a subtle header scrim for readable text. Existing Reduce Motion, battery and animation behavior is retained.\n- Mint, Ocean, Classic and Frosted presets preserve the day-cycle background's On/Off setting. Midnight is folded into Mint; the background remains an independent control.\n- Accent, chart and custom color changes update live on iPhone and macOS 14 or newer, keeping Settings open and retaining screen state. macOS 13 keeps its existing refresh behavior.\n- Custom describes a manually adjusted combination and is no longer an actionable preset. Android uses the same preset recipes and independent background preference.\n\nUpdate the existing SNOOP installation through AltStore using the same signing account, preserving extensions. Permanent app/widget identities, the shared App Group, local storage and backup formats remain compatible. Existing SNOOP downloads, release history and approved artwork are preserved.\n\nThe iPhone package includes widgets and Live Activities. The Watch app is compiled but omitted from the sideload package, retaining the existing packaging behavior. This release does not change Bluetooth, HealthKit, calculations, storage or Live Activity controls. Personal signing and device upgrade/data retention still require device acceptance. In-app update checks remain disabled; updates are distributed through the AltStore source.\n\nSNOOP is based on the NOOP project and is independently maintained. It is not affiliated with or endorsed by WHOOP, Inc. It is not a medical device; derived metrics are informational and not clinically validated. Original author attribution, the license and third-party notices remain in place.\n",
+          "downloadURL": "https://github.com/0xfaisl/snoop-releases/releases/download/v0.1.2/SNOOP-ios-unsigned-v0.1.2.ipa",
+          "size": 21356351,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1.1",
           "buildVersion": "2",
           "date": "2026-10-08T11:51:11Z",
